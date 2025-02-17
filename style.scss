@@ -49,7 +49,6 @@ main {
     aspect-ratio: 1/1;
 
     .images {
-      width: 100%;
       height: 100%;
       display: grid;
       grid-template-areas:
@@ -62,7 +61,7 @@ main {
         "a a c c"
         "a a c c";
 
-      gap: 2rem;
+      gap: 1rem;
 
       img {
         height: 100%;
@@ -121,6 +120,7 @@ main {
     }
 
     .bottom {
+      padding-top: 2rem;
       width: 50%;
 
       .images {
